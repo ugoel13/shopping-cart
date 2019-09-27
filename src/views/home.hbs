@@ -1,0 +1,21 @@
+<section>
+    <div id="sliderContainer">
+        {{#each banners}}
+        <div class="slider">
+            <img data-index="{{id}}" class="slide" alt="{{bannerImageAlt}}" src="{{bannerImageUrl}}" />
+        </div>
+        {{/each}}
+    </div>
+</section>
+<section>
+    {{#each categories}}
+    <div class="categoryItem">
+        <img data-index="{{id}}" class="category" alt="{{key}}" src="{{imageUrl}}" />
+        <div>
+            <span>{{name}}</span>
+            <span>{{description}}</span>
+            <span>Explore {{key}}</span>
+        </div>
+    </div>
+    {{/each}}
+</section>

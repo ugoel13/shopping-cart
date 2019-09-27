@@ -1,0 +1,10 @@
+<section>
+    <div id="sliderContainer">
+        {{#each products}}
+        <div class="slider">
+            {{description}}
+            <img data-index="{{id}}" class="slide" alt="{{sku}}" src="{{imageURL}}" />
+        </div>
+        {{/each}}
+    </div>
+</section>
