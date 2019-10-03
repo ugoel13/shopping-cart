@@ -1,2 +1,2 @@
-import "./modules/Home.js";
-import "./modules/Products.js";
+import "./modules/Home";
+import "./modules/Products";

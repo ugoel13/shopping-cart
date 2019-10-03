@@ -1,1 +1,1 @@
-document.write("This is my home js file");
+console.log("This is my home js file");
